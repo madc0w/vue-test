@@ -23,7 +23,7 @@ module.exports = {
 remove "dist" entry from .gitignore
 
 git push dist dir:
-> git subtree push --prefix dist origin gh-pages
+> git subtree push --prefix dist origin deployment
 
-configure github Settings / Pages to point to gh-pages branch
+configure github Settings / Pages to point to deployment branch
 
