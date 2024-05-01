@@ -5,6 +5,7 @@ create github repo
 > cd git
 > git clone <project-name>
 > vue create <project-name>
+> cd <project-name>
 > npm run serve
 
 copy prettierrc.json from here to root of project dir
@@ -20,8 +21,8 @@ module.exports = {
 > npm run build
 
 remove "dist" entry from .gitignore
-git push dist dir
 
+git push dist dir:
 > git subtree push --prefix dist origin gh-pages
 
 configure github Settings / Pages to point to gh-pages branch
