@@ -1,0 +1,11 @@
+create new vue project:
+
+> vue create <project-name>
+
+run locally:
+
+> npm run serve
+
+get stupid Chrome to local http://localhost:8080 (instead of always changing to https):
+
+Go to chrome://net-internals/#hsts. Enter "localhost" under Delete domain security policies, and press the Delete button.

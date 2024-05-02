@@ -5,6 +5,9 @@ create github repo
 > cd git
 > git clone <project-name>
 > vue create <project-name>
+
+to run locally:
+
 > cd <project-name>
 > npm run serve
 
@@ -23,7 +26,11 @@ module.exports = {
 remove "dist" entry from .gitignore
 
 git push dist dir:
-> git subtree push --prefix dist origin deployment
+> git subtree push --prefix dist origin gh-pages
 
-configure github Settings / Pages to point to deployment branch
+configure github Settings / Pages to point to gh-pages branch
 
+run deploy.bat:
+
+> cd C:\Users\mad\git\vue-github-deploy
+> deploy <project-name>
