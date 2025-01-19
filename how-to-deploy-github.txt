@@ -6,12 +6,12 @@ create github repo
 > git clone <project-name>
 > vue create <project-name>
 
-to run locally:
-
 > cd <project-name>
+
+to run locally:
 > npm run serve
 
-copy prettierrc.json from here to root of project dir
+> copy \Users\mad\git\vue-test\.prettierrc.json .
 
 create vue.config.js
 
@@ -23,12 +23,13 @@ module.exports = {
 
 > npm run build
 
-remove "dist" entry from .gitignore
+remove "/dist" entry from .gitignore
 
 git push dist dir:
 > git subtree push --prefix dist origin gh-pages
 
-configure github Settings / Pages to point to gh-pages branch
+open https://github.com/madc0w/<project-name>/settings/pages
+configure to point to gh-pages branch
 
 run deploy.bat:
 
