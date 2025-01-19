@@ -7,9 +7,13 @@ create github repo
 > vue create <project-name>
 
 > cd <project-name>
+> npm install
 
 to run locally:
 > npm run serve
+
+because Chrome is a piece of shit, http://localhost:8080 will immediately redirect to https://localhost:8080 and fail.
+instead, use http://127.0.0.1:8080/ 
 
 > copy \Users\mad\git\vue-test\.prettierrc.json .
 
